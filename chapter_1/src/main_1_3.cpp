@@ -1,5 +1,5 @@
 /**
- * @file comments.cpp
+ * @file main_1_3.cpp
  * @author Ardit Haxhikadrija (ardithaxhikadrija1@gmail.com.com)
  * @brief Lesson on declaring variables
  * @version 0.1
@@ -11,7 +11,7 @@
 
 #include <iostream>
 
-// I am global variable
+// I am a global variable
 double test_double_variable;
 
 // I am a global unsigned double variable
