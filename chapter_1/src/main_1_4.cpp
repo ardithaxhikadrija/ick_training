@@ -35,10 +35,13 @@ int main(int argc, char **argv) {
   test_unsigned_int_variable = 15;
 
   double global_var_sum = test_double_variable + test_unsigned_double_variable;
-  // I am declaring multiple init_8 variables inside of a function
-  int8_t test_int8_variable_1{125}, test_int8_variable_2, test_int8_variable_3;
 
-  test_int8_variable_2 = int8_t(126);
-  test_int8_variable_3 = int8_t(126);
+  // I am declaring multiple init_8 variables inside of a function
+  int8_t test_int8_variable_1 = 120;
+  int8_t test_int8_variable_2, test_int8_variable_3;
+
+  test_int8_variable_2 = 16;
+  test_int8_variable_3 = 12;
+
   return 0;
 }
