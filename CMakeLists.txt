@@ -14,3 +14,5 @@ set(CMAKE_BUILD_TYPE Debug)
 
 add_subdirectory(chapter_0)
 add_subdirectory(chapter_1)
+add_subdirectory(chapter_2)
+add_subdirectory(stl_tutorials_)
